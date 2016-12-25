@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Avocode dev Gitlab plugin",
+  "description": "Adds confirm dialog when merging a request",
+  "version": "1.0",
+  "content_scripts": [
+  {
+    "matches": [
+      "*://gitlab.abdoc.net/*"
+    ],
+    "js": ["dist/main.js"]
+  }
+]
+}
